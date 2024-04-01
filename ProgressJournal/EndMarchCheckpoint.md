@@ -10,13 +10,15 @@
 
 ## What I've Done
 
-1. Using 55 SOLPS-ITER simulations $\rightarrow$ I averaged $p_0$ and $n_N$ over the outer divertor region:
+### Using 55 SOLPS-ITER simulations $\rightarrow$ I averaged $p_0$ and $n_N$ over the outer divertor region:  
 
-![Outer_Divertor](JournalImages/p0_odiv_polview.svg)
+![Outer divertor region $p_0$](JournalImages/p0_odiv_polview.svg)
 
-![55_sims](JournalImages/p0_vs_nZ_data_labels.svg)
+![55 SOLPS simulations with varying $\Gamma_{D_2}$ and $\Gamma_{N_2}$](JournalImages/p0_vs_nZ_data_labels.svg)
 
-2. Identified three synthetic diagnostics (FIR, BOLO, possibly MANTIS via DSS) $\rightarrow$ Made mappings from $\bar{p}_0$ and $\bar{n}_N$ to $\langle n_e\rangle _{l,FIR}$ @R=Central Chord:
+### Identified three synthetic diagnostics (FIR, BOLO, MANTIS $y_{CIII}$) $\rightarrow$ Made mappings from $\bar{p}_0$ and $\bar{n}_N$ to $\langle n_e\rangle _{l,FIR}$ @R=Central Chord:
+
+**N.B** There are potentially 8 more FIR lines at locations:`[0.876 0.856 0.829 0.787 0.772 0.746 0.721 0.691][m]` over the outer leg!!
 
 ![FIR_mid_line_linear](JournalImages/FIR_mid_line_linear.svg)   
 `Linear regression model:
@@ -69,20 +71,28 @@
 | Root Mean Squared Error                | 0.0171           |
 | R-squared                              | 0.996            |
 
-3. I validated the numbers via physical inuition $\rightarrow$ Attempted to validate via experimental data:
+### I validated the numbers via physical intuition $\rightarrow$ Attempted to validate via experimental data:
 
-![Validation_Attempt](JournalImages/map_validation_attempt.png)
+![](JournalImages/map_validation_attempt.png)
 
 Used GPR fits based on SOLPS-ITER. Probably doesn't work due to lack of dynamics information (i.e., doesn't take into account time dependence), or not isolating steady-state part of experiment correctly... 
 
-![experiment_ne_lin_avg](JournalImages/Cntrl_FIR_ne_linAvg_exp.svg)  
-![solps_ne_lin_avg](JournalImages/Cntrl_FIR_ne_linAvg_synth.svg)
+![Experimental $\langle n_e\rangle _{l,FIR}$ @R=0.903m](JournalImages/Cntrl_FIR_ne_linAvg_exp.svg)   
 
-GPR based on SOLPS-ITER critically underestimates $\bar{n}_{N}$ given experimental shots which leads to an order magnitude underestimation of $\langle n_e\rangle _{l,FIR}$ @R=Central Chord $\rightarrow$ Solution is to use transfer functions obtained from TCV (and ask what else might be going wrong):  
+![Experimental $\langle n_e\rangle _{l,FIR}$ @R=0.903m](JournalImages/Cntrl_FIR_ne_linAvg_synth.svg)
 
-![DIFFER_TCV_sysID](JournalImages/TCV_Exhaust_TF.png)
+**N.B.** GPR based on SOLPS-ITER critically underestimates $\bar{n}_{N}$ given experimental shots which leads to an order magnitude underestimation of $\langle n_e\rangle _{l,FIR}$ @R=Central Chord:  
 
+![](JournalImages/TCV_Exhaust_TF.png)
 
+## Thesis Calendar Update:  
 
+![schedLegend](JournalImages/schedLegend.png){width=333px}![MarAprilMay](JournalImages/MarAprMay.png){width=333px}![MayJunJulAug](JournalImages/MayJunJulAug.png){width=333px}
 
+## Next Steps:
 
+1. Recreate [Systematic extraction of a control-oriented model from perturbative experiments and SOLPS-ITER for emission front control in TCV](https://iopscience.iop.org/article/10.1088/1741-4326/ac5b8c), but with my simulations and chosen diagnostics:
+
+2. Look into other FIR sight-lines, MANTIS $y_{CIII}$, and Bolometer maps.
+
+3. Given these maps, look into which kalman filter is best: linear, extended, unscented.
