@@ -112,8 +112,8 @@ Used GPR fits based on SOLPS-ITER for the red bloack. Probably doesn't work due 
 
 ## Next Steps:
 
-1. Recreate [Systematic extraction of a control-oriented model from perturbative experiments and SOLPS-ITER for emission front control in TCV](https://iopscience.iop.org/article/10.1088/1741-4326/ac5b8c), but with my simulations and chosen diagnostics:
+1. Recreate [Systematic extraction of a control-oriented model from perturbative experiments and SOLPS-ITER for emission front control in TCV](https://iopscience.iop.org/article/10.1088/1741-4326/ac5b8c), but from $\Gamma_{D_2}$ and $\Gamma_{N_2}$ to $\bar{n}_{N}$ and $\bar{p}_{0}$. Perhaps have two separate functions $g_{\bar{n}_N}(\Gamma_{D_2}, \Gamma_{N_2})$ $g_{\bar{p}_0}(\Gamma_{D_2}, \Gamma_{N_2})$ still. Confused on how to do this system identification properly...
 
-2. Look into other FIR sight-lines, MANTIS $y_{CIII}$, and Bolometer maps.
+2. Look into other FIR sight-lines, MANTIS $y_{CIII}$, and Bolometer for more output mappings.
 
 3. Given these maps, look into which kalman filter is best: linear, extended, unscented.
