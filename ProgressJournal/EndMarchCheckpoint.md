@@ -87,8 +87,8 @@
 |Attempting to validate the mapping to $\langle n_e\rangle _{l,FIR}$ @R=Central Chord|
 
 | <img src="JournalImages/map_validation_attempt.png" alt="drawing" width="333"/> |
-|:--:|
-|Attempting to validate the mapping to $\langle n_e\rangle _{l,FIR}$ @R=Central Chord|
+| :--: |
+| Attempting to validate the mapping to $\langle n_e\rangle _{l,FIR}$ @R=Central Chord |
 
 <figure class="image">
   <img src="{{ JournalImages/map_validation_attempt.png }}" alt="{{ include.description }}">
