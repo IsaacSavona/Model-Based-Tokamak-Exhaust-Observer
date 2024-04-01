@@ -88,13 +88,9 @@
 
 Used GPR fits based on SOLPS-ITER for the red bloack. Probably doesn't work due to lack of dynamics information (i.e., doesn't take into account time dependence), or not isolating steady-state part of experiment correctly... 
 
-|![](JournalImages/Cntrl_FIR_ne_linAvg_exp.svg) |
-|:--:|
-|Experimental values from FIR|
-
-|![](JournalImages/Cntrl_FIR_ne_linAvg_synth.svg)|
-|:--:|
-|Synthetic mapping of FIR|
+|![](JournalImages/Cntrl_FIR_ne_linAvg_exp.svg) | ![](JournalImages/Cntrl_FIR_ne_linAvg_synth.svg)|
+|:--:|:--:|
+|Experimental values from FIR|Synthetic mapping of FIR|
 
 **N.B.** GPR based on SOLPS-ITER critically underestimates $\bar{n}_{N}$ given experimental shots which leads to an order magnitude underestimation of $\langle n_e\rangle _{l,FIR}$ @R=Central Chord:  
 
@@ -110,10 +106,16 @@ Used GPR fits based on SOLPS-ITER for the red bloack. Probably doesn't work due 
     <img src="JournalImages/MayJunJulAug.png" alt="drawing" width="333"/>
 </p>
 
-## Next Steps:
+## Next Steps (and notes):
 
 1. Recreate [Systematic extraction of a control-oriented model from perturbative experiments and SOLPS-ITER for emission front control in TCV](https://iopscience.iop.org/article/10.1088/1741-4326/ac5b8c), but from $\Gamma_{D_2}$ and $\Gamma_{N_2}$ to $\bar{n}_{N}$ and $\bar{p}_{0}$. Perhaps have two separate functions $g_{\bar{n}_N}(\Gamma_{D_2}, \Gamma_{N_2})$ $g_{\bar{p}_0}(\Gamma_{D_2}, \Gamma_{N_2})$ still. Confused on how to do this system identification properly...
 
+- Notes:
+
 2. Look into other FIR sight-lines, MANTIS $y_{CIII}$, and Bolometer for more output mappings.
 
+- Notes:
+
 3. Given these maps, look into which kalman filter is best: linear, extended, unscented.
+
+- Notes;
