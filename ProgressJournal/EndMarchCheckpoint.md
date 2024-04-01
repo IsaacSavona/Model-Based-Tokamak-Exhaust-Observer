@@ -87,7 +87,13 @@ Used GPR fits based on SOLPS-ITER. Probably doesn't work due to lack of dynamics
 
 ## Thesis Calendar Update:  
 
-![schedLegend](JournalImages/schedLegend.png){width=333px}![MarAprilMay](JournalImages/MarAprMay.png){width=333px}![MayJunJulAug](JournalImages/MayJunJulAug.png){width=333px}
+<!-- ![schedLegend](JournalImages/schedLegend.png){width=333px}![MarAprilMay](JournalImages/MarAprMay.png){width=333px}![MayJunJulAug](JournalImages/MayJunJulAug.png){width=333px} -->
+
+<!-- ![schedLegend](JournalImages/schedLegend.png){width=333px}![MarAprilMay](JournalImages/MarAprMay.png){width=333px}![MayJunJulAug](JournalImages/MayJunJulAug.png){width=333px} -->
+
+<img src="JournalImages/schedLegend.png" alt="drawing" width="333"/>
+<img src="JournalImages/MarAprMay.png" alt="drawing" width="333"/>
+<img src="JournalImages/MayJunJulAug.png" alt="drawing" width="333"/>
 
 ## Next Steps:
 
