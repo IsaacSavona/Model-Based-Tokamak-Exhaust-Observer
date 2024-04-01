@@ -98,7 +98,7 @@ Used GPR fits based on SOLPS-ITER for the red bloack. Probably doesn't work due 
 
 |![](JournalImages/Cntrl_FIR_ne_linAvg_synth.svg)|
 |:--:|
-|Experimental $\langle n_e\rangle _{l,FIR}$ @R=0.903m|
+|Experimental $$\langle n_e\rangle _{l,FIR}$$ @R=0.903m|
 
 **N.B.** GPR based on SOLPS-ITER critically underestimates $\bar{n}_{N}$ given experimental shots which leads to an order magnitude underestimation of $\langle n_e\rangle _{l,FIR}$ @R=Central Chord:  
 
