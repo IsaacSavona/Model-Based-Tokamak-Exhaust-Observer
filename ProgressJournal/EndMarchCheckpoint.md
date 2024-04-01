@@ -16,11 +16,11 @@
 
 | ![](JournalImages/p0_odiv_polview.svg) | ![](JournalImages/p0_vs_nZ_data_labels.svg) |
 |:--------:|:-------:|
-| Outer divertor region $p_0$| 55 SOLPS simulations with varying $\Gamma_{D_2}$ and $\Gamma_{N_2}$ |  
+| Outer divertor region neutral pressure | 55 SOLPS simulations with varying deuterium flux and nitrogen flux |  
 
 | ![](JournalImages/grid_polVIew_SOLPS_nN.svg) | ![](JournalImages/grid_polView_SOLPS_p0.svg) |
 |:---------:|:-------:|
-| 55 sims' poloidal view grid of $n_N$ | 55 sims' poloidal view grid of $p_0$ |
+| 55 sims' poloidal view grid of nitrogen density | 55 sims' poloidal view grid of neutral pressure |
 
 ### Identified three synthetic diagnostics (FIR, BOLO, MANTIS $y_{CIII}$) $\rightarrow$ Made mappings from $\bar{p}_0$ and $\bar{n}_N$ to $\langle n_e\rangle _{l,FIR}$ @R=Central Chord:
 
@@ -84,17 +84,17 @@
 
 | ![](JournalImages/map_validation_attempt.png) |
 |:--:|
-| Attempting to validate the mapping to $\langle n_e\rangle _{l,FIR}$ @R=Central Chord |
+| Attempting to validate the mapping to average electron density of FIR @R=Central Chord |
 
 Used GPR fits based on SOLPS-ITER for the red bloack. Probably doesn't work due to lack of dynamics information (i.e., doesn't take into account time dependence), or not isolating steady-state part of experiment correctly... 
 
 |![](JournalImages/Cntrl_FIR_ne_linAvg_exp.svg) |
 |:--:|
-|Experimental $\langle n_e\rangle _{l,FIR}$ @R=0.903m|
+|Experimental values from FIR|
 
 |![](JournalImages/Cntrl_FIR_ne_linAvg_synth.svg)|
 |:--:|
-|Experimental $$\langle n_e\rangle _{l,FIR}$$ @R=0.903m|
+|Synthetic mapping of FIR|
 
 **N.B.** GPR based on SOLPS-ITER critically underestimates $\bar{n}_{N}$ given experimental shots which leads to an order magnitude underestimation of $\langle n_e\rangle _{l,FIR}$ @R=Central Chord:  
 
