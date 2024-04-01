@@ -82,7 +82,11 @@
 
 ### I validated the numbers via physical intuition $\rightarrow$ Attempted to validate via experimental data:
 
-| ![Map validation](JournalImages/map_validation_attempt.png) |
+| ![](JournalImages/map_validation_attempt.png) |
+|:--:|
+|Attempting to validate the mapping to $\langle n_e\rangle _{l,FIR}$ @R=Central Chord|
+
+| ![Map validation process](JournalImages/map_validation_attempt.png) |
 |:--:|
 |Attempting to validate the mapping to $\langle n_e\rangle _{l,FIR}$ @R=Central Chord|
 
