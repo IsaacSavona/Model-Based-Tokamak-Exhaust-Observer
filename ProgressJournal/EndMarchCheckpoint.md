@@ -8,7 +8,7 @@
 
 | ![Observer block diagram](JournalImages/Observer_Block_Diagram.png) |
 |:--:|
-|Observer block diagram $a$|
+|Observer block diagram|
 
 ## What I've Done
 
@@ -86,7 +86,7 @@
 |:--:|
 |Attempting to validate the mapping to $\langle n_e\rangle _{l,FIR}$ @R=Central Chord|
 
-| ![](JournalImages/map_validation_attempt.png) |
+| <img src="JournalImages/map_validation_attempt.png" alt="drawing" width="333"/> |
 |:--:|
 |Attempting to validate the mapping to $\langle n_e\rangle _{l,FIR}$ @R=Central Chord|
 
