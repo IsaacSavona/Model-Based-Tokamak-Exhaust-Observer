@@ -20,8 +20,9 @@
 
 **N.B** There are potentially 8 more FIR lines at locations:`[0.876 0.856 0.829 0.787 0.772 0.746 0.721 0.691][m]` over the outer leg!!
 
-![FIR_mid_line_linear](JournalImages/FIR_mid_line_linear.svg)   
-`Linear regression model:
+| ![FIR_mid_line_linear](JournalImages/FIR_mid_line_linear.svg) |
+|:--:| 
+|`Linear regression model:
     y ~ 1 + x1 + x2` 
 |               | Estimate   | SE         |
 |---------------|------------|------------|
@@ -33,7 +34,7 @@
 |----------------------------------------|------------------|
 | Error degrees of freedom               | 52               |
 | Root Mean Squared Error                | 0.0551           |
-| R-squared                              | 0.952            |
+| R-squared                              | 0.952            | |
 
 
 ![FIR_mid_line_poly21](JournalImages/FIR_mid_line_poly21.svg)  
