@@ -12,7 +12,7 @@
 
 ## What I've Done
 
-### Using 55 SOLPS-ITER simulations $\rightarrow$ I averaged $p_0$ and $n_N$ over the outer divertor region:  
+### Using 55 SOLPS-ITER simulations $\rightarrow$ I averaged $p_0$ and $n_N$ over the outer divertor region:
 
 | ![](JournalImages/p0_odiv_polview.svg) | ![](JournalImages/p0_vs_nZ_data_labels.svg) |
 |:--------:|:-------:|
@@ -85,6 +85,10 @@
 | ![](JournalImages/map_validation_attempt.png) |
 |:--:|
 |Attempting to validate the mapping to $\langle n_e\rangle _{l,FIR}$ @R=Central Chord|
+
+| ![Observer block diagram](JournalImages/Observer_Block_Diagram.png) |
+|:--:|
+|Observer block diagram|
 
 Used GPR fits based on SOLPS-ITER for the red bloack. Probably doesn't work due to lack of dynamics information (i.e., doesn't take into account time dependence), or not isolating steady-state part of experiment correctly... 
 
