@@ -1,6 +1,12 @@
 # End of March Update
 
-## Bigger Picture
+# Table of Contents
+1. [Bigger Picture](#Bigger_Picture)
+2. [What I've Done](#What_I've_Done)
+3. [Thesis Calendar Update](#Thesis_Calendar_Update)
+3. [Next Steps](#Next_Steps)
+
+## Bigger Picture <a name="Bigger_Picture"></a>
 - Deciding on the *outer divertor region* to define the volume average of $\bar{p}_0$ and $\bar{n}_N$ and a synthetic diagnostic (=start with FIR) $\rightarrow$  
 - $f(\bar{p}_0, \bar{n}_N)$ $\rightarrow$  
 - Using $f(\bar{p}_0, \bar{n}_N)$ part of the kalman filter update step becomes $K(y - f(\bar{p}_0, \bar{n}_N))$ where $y$ are the real sensor measurements and $K$ comes from (among other things) the process noise as defined by the RMSE of the fit on $f(\bar{p}_0, \bar{n}_N)$ $\rightarrow$  
@@ -10,7 +16,7 @@
 |:--:|
 |Observer block diagram|
 
-## What I've Done
+## What I've Done <a name="What_I've_Done"></a>
 
 ### Using 55 SOLPS-ITER simulations $\rightarrow$ I averaged $p_0$ and $n_N$ over the outer divertor region:
 
@@ -98,7 +104,7 @@ Used GPR fits based on SOLPS-ITER for the red bloack. Probably doesn't work due 
 |:--:|
 | Transfer functions and fits from TCV experiments to similar states |
 
-## Thesis Calendar Update:  
+## Thesis Calendar Update <a name="Thesis_Calendar_Update"></a>
 
 <p float="left">
     <img src="JournalImages/schedLegend.png" alt="drawing" width="333"/>
@@ -106,7 +112,7 @@ Used GPR fits based on SOLPS-ITER for the red bloack. Probably doesn't work due 
     <img src="JournalImages/MayJunJulAug.png" alt="drawing" width="333"/>
 </p>
 
-## Next Steps (and notes):
+## Next Steps (and notes) <a name="Next_Steps_(and_notes)"></a>
 
 1. Recreate [Systematic extraction of a control-oriented model from perturbative experiments and SOLPS-ITER for emission front control in TCV](https://iopscience.iop.org/article/10.1088/1741-4326/ac5b8c), but from $\Gamma_{D_2}$ and $\Gamma_{N_2}$ to $\bar{n}_{N}$ and $\bar{p}_{0}$. Perhaps have two separate functions $g_{\bar{n}_N}(\Gamma_{D_2}, \Gamma_{N_2})$ $g_{\bar{p}_0}(\Gamma_{D_2}, \Gamma_{N_2})$ still. Confused on how to do this system identification properly...
 
