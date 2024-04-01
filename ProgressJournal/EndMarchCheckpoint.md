@@ -28,7 +28,8 @@
 
 | ![FIR_mid_line_linear](JournalImages/FIR_mid_line_linear.svg) |
 |:--:| 
-|Linear regression model: `y ~ 1 + x1 + x2`|
+|Linear regression model: `y ~ 1 + x1 + x2`|  
+
 |               | Estimate   | SE         |
 |---------------|------------|------------|
 | (Intercept)   | -0.06237   | 0.031404   |
@@ -44,7 +45,8 @@
 
 |![FIR_mid_line_poly21](JournalImages/FIR_mid_line_poly21.svg)|
 |:--:| 
-|Linear regression model: `y ~ 1 + x1^2 + x1*x2`|
+|Linear regression model: `y ~ 1 + x1^2 + x1*x2`|  
+
 |               | Estimate   | SE        |
 |---------------|------------|-----------|
 | (Intercept)   | 0.052967   | 0.042103  |
@@ -61,7 +63,8 @@
 
 | ![FIR_mid_line_poly13](JournalImages/FIR_mid_line_poly13.svg) |
 |:--:| 
-| Linear regression model: `y ~ 1 + x1*x2 + x2^2 + x1:(x2^2) + x2^3` |
+| Linear regression model: `y ~ 1 + x1*x2 + x2^2 + x1:(x2^2) + x2^3` |  
+
 |               | Estimate   | SE        |
 |---------------|------------|-----------|
 | (Intercept)   | 0.26839    | 0.12515   |
