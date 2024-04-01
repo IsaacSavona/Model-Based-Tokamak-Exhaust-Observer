@@ -84,16 +84,7 @@
 
 | ![](JournalImages/map_validation_attempt.png) |
 |:--:|
-|Attempting to validate the mapping to $\langle n_e\rangle _{l,FIR}$ @R=Central Chord|
-
-| <img src="JournalImages/map_validation_attempt.png" alt="drawing" width="333"/> |
-| :--: |
 | Attempting to validate the mapping to $\langle n_e\rangle _{l,FIR}$ @R=Central Chord |
-
-<figure class="image">
-  <img src="{{ JournalImages/map_validation_attempt.png }}" alt="{{ include.description }}">
-  <figcaption>{{ Attempting to validate the mapping to $\langle n_e\rangle _{l,FIR}$ @R=Central Chord }}</figcaption>
-</figure>
 
 Used GPR fits based on SOLPS-ITER for the red bloack. Probably doesn't work due to lack of dynamics information (i.e., doesn't take into account time dependence), or not isolating steady-state part of experiment correctly... 
 
