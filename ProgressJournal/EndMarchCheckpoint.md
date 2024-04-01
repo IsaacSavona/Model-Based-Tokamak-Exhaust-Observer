@@ -8,7 +8,7 @@
 
 | ![Observer block diagram](JournalImages/Observer_Block_Diagram.png) |
 |:--:|
-|Observer block diagram|
+|Observer block diagram $a$|
 
 ## What I've Done
 
