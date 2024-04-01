@@ -82,14 +82,14 @@
 
 ### I validated the numbers via physical intuition $\rightarrow$ Attempted to validate via experimental data:
 
-| ![m](JournalImages/map_validation_attempt.png) |
+| ![](JournalImages/map_validation_attempt.png) |
 |:--:|
 |Attempting to validate the mapping to $\langle n_e\rangle _{l,FIR}$ @R=Central Chord|
 
 Used GPR fits based on SOLPS-ITER for the red bloack. Probably doesn't work due to lack of dynamics information (i.e., doesn't take into account time dependence), or not isolating steady-state part of experiment correctly... 
 
-|![](JournalImages/Cntrl_FIR_ne_linAvg_exp.svg)|
-|:--:| 
+|![](JournalImages/Cntrl_FIR_ne_linAvg_exp.svg) |
+|:--:|
 |Experimental $\langle n_e\rangle _{l,FIR}$ @R=0.903m|
 
 |![](JournalImages/Cntrl_FIR_ne_linAvg_synth.svg)|
@@ -100,7 +100,7 @@ Used GPR fits based on SOLPS-ITER for the red bloack. Probably doesn't work due 
 
 | ![](JournalImages/TCV_Exhaust_TF.png) |
 |:--:|
-| Transfer functions and fits from TCV experiments to similar states|
+| Transfer functions and fits from TCV experiments to similar states |
 
 ## Thesis Calendar Update:  
 
