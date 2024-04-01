@@ -86,7 +86,7 @@
 |:--:|
 |Attempting to validate the mapping to $\langle n_e\rangle _{l,FIR}$ @R=Central Chord|
 
-| ![Observer block diagram](JournalImages/Observer_Block_Diagram.png) |
+| ![Observer block diagram](JournalImages/map_validation_attempt.png) |
 |:--:|
 |Observer block diagram|
 
