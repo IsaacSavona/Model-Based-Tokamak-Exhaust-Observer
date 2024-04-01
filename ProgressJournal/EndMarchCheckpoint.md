@@ -88,7 +88,7 @@
 
 | ![](JournalImages/map_validation_attempt.png) |
 |:--:|
-|Observer block diagram|
+|Attempting to validate the mapping|
 
 Used GPR fits based on SOLPS-ITER for the red bloack. Probably doesn't work due to lack of dynamics information (i.e., doesn't take into account time dependence), or not isolating steady-state part of experiment correctly... 
 
