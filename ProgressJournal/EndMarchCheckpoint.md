@@ -99,14 +99,14 @@ Used GPR fits based on SOLPS-ITER for the red bloack. Probably doesn't work due 
 
 **N.B.** GPR based on SOLPS-ITER critically underestimates $\bar{n}_{N}$ given experimental shots which leads to an order magnitude underestimation of $\langle n_e\rangle _{l,FIR}$ @R=Central Chord:  
 
-| ![](JournalImages/TCV_Exhaust_TF.png) |
+| <img src="JournalImages/TCV_Exhaust_TF.png" alt="drawing" width="500"/>|
 |:--:|
 | Transfer functions and fits from TCV experiments to similar states |
 
 ## Thesis Calendar Update
 
 <p float="center">
-    <img src="JournalImages/schedLegend.png" alt="drawing" width="333"/>
+    <img src="JournalImages/schedLegend.png" alt="drawing" width="500"/>
 </p>
 <p float="left">
     <img src="JournalImages/MarAprMay.png" alt="drawing" width="333"/>
