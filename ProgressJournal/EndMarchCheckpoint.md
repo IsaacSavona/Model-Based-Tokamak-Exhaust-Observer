@@ -105,8 +105,10 @@ Used GPR fits based on SOLPS-ITER for the red bloack. Probably doesn't work due 
 
 ## Thesis Calendar Update
 
-<p float="left">
+<p float="center">
     <img src="JournalImages/schedLegend.png" alt="drawing" width="333"/>
+</p>
+<p float="left">
     <img src="JournalImages/MarAprMay.png" alt="drawing" width="333"/>
     <img src="JournalImages/MayJunJulAug.png" alt="drawing" width="333"/>
 </p>
