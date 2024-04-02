@@ -44,7 +44,7 @@
 | Metric                                 | Value            |
 |----------------------------------------|------------------|
 | Error degrees of freedom               | 52               |
-| Root Mean Squared Error                | 0.0551           |
+| Root Mean Squared Error                | 5.51e17          |
 | R-squared                              | 0.952            | 
 
 
@@ -62,7 +62,7 @@
 
 | Metric                                 | Value            |
 |----------------------------------------|------------------|
-| Root Mean Squared Error                | 0.0496           |
+| Root Mean Squared Error                | 4.96e17          |
 | R-squared                              | 0.962            |
 
 
@@ -82,7 +82,7 @@
 
 | Metric                                 | Value            |
 |----------------------------------------|------------------|
-| Root Mean Squared Error                | 0.0171           |
+| Root Mean Squared Error                | 1.71e17          |
 | R-squared                              | 0.996            |
 
 ### I validated the numbers via physical intuition $\rightarrow$ Attempted to validate via experimental data:
