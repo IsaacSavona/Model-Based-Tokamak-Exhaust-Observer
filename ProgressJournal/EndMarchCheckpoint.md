@@ -43,7 +43,6 @@
 
 | Metric                                 | Value            |
 |----------------------------------------|------------------|
-| Error degrees of freedom               | 52               |
 | Root Mean Squared Error                | 5.51e17          |
 | R-squared                              | 0.952            | 
 
