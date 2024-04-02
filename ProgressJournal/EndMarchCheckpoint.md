@@ -124,4 +124,25 @@ Used GPR fits based on SOLPS-ITER for the red bloack. Probably doesn't work due 
 
 3. Given these maps, look into which kalman filter is best: linear, extended, unscented.
 
-- Notes;
+- Notes:
+
+## End Goal
+
+Simulate kalman filter with simple state model and SOLPS-ITER SynthDiag maps that I have.
+
+### Simple State Model
+ - Start with diagonal MIMO
+ - Choose a pole of a couple hertz (stable system)
+ - Make slope from 
+
+### SOLPS Maps  
+- Start with BOLO and Central FIR (linear if I can)
+- Check uniqueness with respect to $q_{tar}$, $T_{tar}$, $\Gamma_{it}$
+- Assume from Stangeby $q_{tar}$ = $q_{||} sin(\theta_{\perp})$...for now...
+- Check for $T_{tar}$ in SOLPS-ITER data as $T_{e}$ or $T_{i}$ at the target...perhaps assume $T_{e}$ = $T_{i}$.
+- $\Gamma_{it}$ check SOLPS-ITER first and then perhaps Stangeby 2018.
+
+### Kalman Filter  
+- Start with "measurements" with some measurement noise
+- Measurement y could then get some noise and then perhaps with some offset
+
