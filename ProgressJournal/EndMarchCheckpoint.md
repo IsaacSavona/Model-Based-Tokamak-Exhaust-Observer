@@ -6,10 +6,10 @@
 3. Next Steps (and notes)
 
 ## Bigger Picture
-- Deciding on the *outer divertor region* to define the volume average of $\bar{p}_0$ and $\bar{n}_N$ and a synthetic diagnostic (=start with e.g., FIR) $\rightarrow$  
-- $f(\bar{p}_0, \bar{n}_N)$ $\rightarrow$
-- Using $f(\bar{p}_0, \bar{n}_N)$ part of the Kalman filter update step becomes $K(y - f(\bar{p}_0, \bar{n}_N))$ where $y$ are the real sensor measurements and $K$ comes from (among other things) the process noise as defined by the RMSE of the fit on $f(\bar{p}_0, \bar{n}_N)$ $\rightarrow$  
-- Validating/testing both Kalman Filter and $f(\bar{p}_0, \bar{n}_N)$ comes down to using experimental data and the FRF system identification of TCV exhaust to update the state (i.e., the "State Model" block) in the loop with the Kalman Filter and checking that the residual has constant variance and zero mean.
+### - Deciding on the *outer divertor region* to define the volume average of $\bar{p}_0$ and $\bar{n}_N$ and a synthetic diagnostic (=start with e.g., FIR) $\rightarrow$  
+### - $f(\bar{p}_0, \bar{n}_N)$ $\rightarrow$
+### - Using $f(\bar{p}_0, \bar{n}_N)$ part of the Kalman filter update step becomes $K(y - f(\bar{p}_0, \bar{n}_N))$ where $y$ are the real sensor measurements and $K$ comes from (among other things) the process noise as defined by the RMSE of the fit on $f(\bar{p}_0, \bar{n}_N)$ $\rightarrow$  
+### - Validating/testing both Kalman Filter and $f(\bar{p}_0, \bar{n}_N)$ comes down to using experimental data and the FRF system identification of TCV exhaust to update the state (i.e., the "State Model" block) in the loop with the Kalman Filter and checking that the of the KF residual has constant variance and zero mean.
 
 | ![Observer block diagram](JournalImages/Observer_Block_Diagram.png) |
 |:--:|
